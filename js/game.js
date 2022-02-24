@@ -195,7 +195,6 @@ function updateMistakes() {
 function reset() {
   document.getElementById('close_modal').click();
   document.getElementById('close_modal2').click();
-  document.getElementById('points').innerText= 0;
   mistakes = 0;
   guessed = [];
   document.getElementById('hangmanPic').src = './img/0.jpg';
